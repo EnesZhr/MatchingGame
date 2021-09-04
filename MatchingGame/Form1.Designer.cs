@@ -29,13 +29,22 @@ namespace MatchingGame
         /// </summary>
         private void InitializeComponent()
         {
+            this.pnlKartlar = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // pnlKartlar
+            // 
+            this.pnlKartlar.Location = new System.Drawing.Point(12, 12);
+            this.pnlKartlar.Name = "pnlKartlar";
+            this.pnlKartlar.Size = new System.Drawing.Size(500, 500);
+            this.pnlKartlar.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(879, 549);
+            this.ClientSize = new System.Drawing.Size(520, 519);
+            this.Controls.Add(this.pnlKartlar);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
@@ -45,6 +54,8 @@ namespace MatchingGame
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel pnlKartlar;
     }
 }
 
